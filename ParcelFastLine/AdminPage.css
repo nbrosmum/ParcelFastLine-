@@ -1,0 +1,292 @@
+:root{
+	--c1:#E31C79;
+	--c2:#fff;
+	--c3:#22242A;
+	--c4:#2f323a;
+	--c5:#767b8a;
+	--c6:#df5d9a;
+	--c7:#df9bba;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* TOP */
+
+header{
+	display: block;
+	position: fixed;
+	background:var(--c3);
+	padding: 15px;
+	width: 100%;
+	height: 30px;
+	z-index: 9;
+	top: 0px;
+}
+.top h1{
+	color: var(--c2);
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 900;
+}
+.top span{
+	color:var(--c1);
+}
+
+.top span{
+	color:var(--c1);
+  }
+
+ .topstuff{
+	  position: relative;
+	  bottom: 40px;
+	  right: 40px;
+	  text-align: right;
+	  color: var(--c2);
+	  margin: 0;
+	  text-transform: capitalize;
+	  font-size: 16px;
+	  font-weight: bold;
+  }
+  .topstuff a:any-link{
+	  color: var(--c2);
+	  text-decoration: none;
+  }
+  .topstuff a:hover{
+	  color: var(--c1);
+	  border: none;
+  }
+
+/* ItemList */
+
+#itemlist{
+	position: relative;
+	top: 70px;
+	padding-bottom: 20px;
+}
+#itemlist h2{
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+#itemlist .itemlist{
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#itemlist tr, td{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding: 5px;
+}
+
+#itemlist th{
+	padding: 5px;
+	background-color:var(--c4);
+	color: var(--c2);
+}
+
+#itemlist tr:nth-child(even) td{
+	background-color:var(--c5);
+	color: var(--c2);
+}
+#itemlist tr:nth-child(odd) td{
+	background-color:var(--c7);
+	color: var(--c3);
+}
+
+#itemlist a:any-link{
+	color: black;
+	text-decoration: none;
+}
+
+#itemlist a:hover{
+	color: var(--c1);
+}
+
+/* FeedBack */
+
+#displayfeedback {
+	position: relative;
+	top: 100px;
+	background-color: var(--c3);
+	color: var(--c2);
+	padding: 80px;
+}
+
+#displayfeedback h2{
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+#displayfeedback .feedback{
+	display: flex;
+	justify-content: center;
+}
+
+#displayfeedback .feedback{
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#displayfeedback tr, td{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding: 5px;
+}
+
+#displayfeedback th{
+	padding: 5px;
+	background-color:var(--c1);
+	color: var(--c2);
+}
+
+#displayfeedback tr:nth-child(even) td{
+	background-color:var(--c5);
+	color: var(--c2);
+}
+#displayfeedback tr:nth-child(odd) td{
+	background-color:var(--c7);
+	color: var(--c3);
+}
+
+
+/* fOOTER */
+
+.footer-basic{
+	position: relative;
+	top: 83px;
+	background-color: var(--c4);
+	color: var(--c2);
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:var(--c2);
+  margin-bottom:0;
+}
+
+.list-inline{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    text-align: center;
+	padding-right: 40px;
+	padding-top: 10px;
+}
+.list-inline li{
+    max-width: 100%;
+    position: relative;
+	padding: 15px;
+}
+
+/* EditDetails */
+
+#editdetail {
+	padding: 60px;
+	position: relative;
+	top: 26px;
+	background-color: var(--c4);
+	color: var(--c2);
+}
+
+#editdetail h2{
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+#editdetail .detaillist{
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+
+#editdetail  tr, td{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding: 5px;
+}
+
+#editdetail  th{
+	padding: 5px;
+	background-color:var(--c4);
+	color: var(--c2);
+}
+
+#editdetail  tr:nth-child(odd) td{
+	background-color:var(--c5);
+	color: var(--c2);
+}
+#editdetail  tr:nth-child(even) td{
+	background-color:var(--c7);
+	color: var(--c3);
+}
+
+#editdetail a:any-link{
+	color: black;
+	text-decoration: none;
+}
+
+#editdetail a:hover{
+	color: var(--c1);
+}
+
+#editdetail input{
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid aqua ;
+	border-radius: 10px;
+}
+
+#editdetail .Update{
+	background-color: var(--c5);
+	border: none;
+	padding: 3px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 50px;
+	font-weight: bold;
+}
+
+#editdetail .Update:hover{
+	color: var(--c1);
+	cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+:root{
+	--c1:#E31C79;
+	--c2:#fff;
+	--c3:#22242A;
+	--c4:#2f323a;
+	--c5:#767b8a;
+	--c6:#df5d9a;
+	--c7:#df9bba;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(#E31C79,  #22242A );
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+/* White box */
+.wrapper{
+    width: 400px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: var(--c2);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+h1{
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid silver;
+}
+
+form input{
+    width: 90%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+} 
+button{
+    font-size: 1rem;
+    margin-top: 1.rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    background: var(--c6);
+}
+button:hover{
+    background: var(--c1);
+}
+input:focus{
+    border: 1px solid rgb(192,192,192);
+}
+.terms {
+    margin-top: 0.2rem;
+    padding: 10px 10px;
+}
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.7rem;
+}
+.terms a{
+    color: rgb(17,107,143);
+    text-decoration: none;
+}
+.terms a:hover{
+    text-decoration: underline;
+}
+.member{
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #636363;
+}
+.member a{
+    color: #2691d9;
+    text-decoration: none;
+}
+.member a:hover{
+    text-decoration: underline;
+}
+
+.signup_link{
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+.signup_link a{
+    color: #2691d9;
+    text-decoration: none;
+}
+.signup_link a:hover{
+    text-decoration: underline;
+}
+.pass{
+    padding: 10px 10px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+.pass:hover{
+    text-decoration: underline;
+}    
